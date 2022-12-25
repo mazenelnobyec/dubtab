@@ -1,5 +1,6 @@
 {
-    "manifest_version":3,
+    "manifest_version":2,
+    "version":"0.1",
     "name":"Dubtab",
     "description":"",
 
@@ -7,7 +8,7 @@
         "128":"icons/dubtab128.png"
     },
 
-    "content-scripts":[
+    "content_scripts":[
         {
             "matches":["<all_urls>"],
             "js":["main.js"]
